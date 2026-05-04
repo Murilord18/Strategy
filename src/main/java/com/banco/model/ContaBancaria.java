@@ -23,9 +23,7 @@ public class ContaBancaria {
         return saldo;
     }
 
-    /**
-     * Troca a estratégia de operação em tempo de execução.
-     */
+
     public void setOperacao(Operacao operacao) {
         this.operacao = operacao;
     }
